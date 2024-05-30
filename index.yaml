@@ -1,0 +1,50 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 10.5.22
+    created: "2024-05-30T23:22:47.400542+09:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MariaDB is an open source, community-developed SQL database server
+      that is widely in use around the world due to its enterprise features, flexibility,
+      and collaboration with leading tech firms.
+    digest: a932b4a4c90004236bfbec0bcf0d1e2e4c76e94aa1afe6cb8ec89cd183c169e5
+    home: https://github.com/bitnami/charts/tree/main/bitnami/mariadb
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    urls:
+    - mariadb-11.5.7.tgz
+    version: 11.5.7
+  spc-itsm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-30T23:22:47.401236+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 320b8f6935308593f6b61ad456d8fab773fe794d601ddf2601a35318fcd382f7
+    name: spc-itsm
+    type: application
+    urls:
+    - spc-itsm-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-30T23:22:47.397241+09:00"
